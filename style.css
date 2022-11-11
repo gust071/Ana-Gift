@@ -1,0 +1,128 @@
+
+@font-face{
+    src: url(fonts/chinese\ rocks\ rg.otf);
+    font-family: chinese;
+}
+
+@font-face{
+    src: url(fonts/DamagrafikScript-Regular.ttf);
+    font-family: damagrafik;
+}
+
+h1 {
+     font-size: 100px;
+     font-family: 'Love Ya Like A Sister', cursive;
+     color: pink;
+     
+}
+h2 {
+    font-size: 80px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: pink;
+    
+}
+#super {
+    background-color: rgba(255, 228, 196, 0.289);
+    text-align: center;
+    border-radius: 30%;
+   
+}
+
+#mega {
+    background-color: rgba(255, 228, 196, 0.289);
+    text-align: center;
+    border-radius: 30%;
+   
+}
+
+
+a {
+     color: inherit;
+     text-decoration: none;
+     text-align: center;
+  } 
+#indiv {
+    background-color:white;
+
+   
+}
+#fuckline {
+   outline: auto;
+   outline-color: rgba(255, 182, 193, 0.521);
+    background-color: black;
+}
+
+#coracao{
+    display: block;
+    
+}
+#chamber {
+    background-color: white;
+}
+#xdiv{
+    display: block;
+    text-align: center;
+}
+
+.erro{
+    color:rgba(255, 20, 145, 0.583);
+    display: block;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.erro-not{
+    display: none;
+    text-align: center;
+}
+#erroId{
+    text-align: center;
+}
+.opcao{
+    text-align: center;
+   
+}
+
+.fica{
+    color:rgba(255, 20, 145, 0.583);
+    display: block;
+    text-align: center;
+    
+}
+
+.fica-esconde{
+    display: none;
+    text-align: center;
+}
+#erroep2{
+    text-align: center;
+}
+
+#puto{
+    font-size: 90px;
+    font-family: damagrafik;
+    color:rgb(227, 13, 13);
+}
+#puto1{
+    font-size: 70px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color:pink;
+}
+
+.fica2{
+    color:rgba(255, 20, 145, 0.583);
+    display: block;
+    text-align: center;
+    
+}
+
+.fica-esconde2{
+    display: none;
+    text-align: center;
+}
+
+
+
+
+
+

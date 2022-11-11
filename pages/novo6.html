@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+    <title>EU TE AMO</title>
+</head>
+<body>
+    
+
+    <div id="super">
+        <h2>EU....</h2>
+        <button type="button" onclick="loadDoc(); playAudio()"  >clik</button>
+      </div>
+
+      <script>
+        function loadDoc() {
+          const xhttp = new XMLHttpRequest();
+          xhttp.onload = function() {
+            document.getElementById("super").innerHTML =
+            this.responseText;
+          }
+          xhttp.open("GET", "ajax_info.txt");
+          xhttp.send();
+        }
+        </script>
+
+    <audio id="myAudio">
+            <source src="../imagens/SELECT Button Sound Effect.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        var x = document.getElementById("myAudio"); 
+
+        function playAudio() { 
+        x.play(); 
+        } 
+    </script>
+
+</body>
+</html>
