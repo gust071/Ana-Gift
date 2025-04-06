@@ -12,17 +12,17 @@
 h1 {
      font-size: 100px;
      font-family: 'Love Ya Like A Sister', cursive;
-     color: blue;
+     color: pink;
      
 }
 h2 {
     font-size: 80px;
     font-family: 'Love Ya Like A Sister', cursive;
-    color: blue;
+    color: pink;
     
 }
 #super {
-    background-color: rgba(255, 228, 196, 0.289);   
+    background-color: rgba(255, 228, 196, 0.289);
     text-align: center;
     border-radius: 30%;
    
@@ -48,7 +48,7 @@ a {
 }
 #fuckline {
    outline: auto;
-   outline-color: rgba(255, 228, 196, 0.521);
+   outline-color: rgba(255, 182, 193, 0.521);
     background-color: black;
 }
 
@@ -65,7 +65,7 @@ a {
 }
 
 .erro{
-    color:rgba(255, 228, 196, 0.583);
+    color:rgba(255, 20, 145, 0.583);
     display: block;
     text-align: center;
     font-family: 'Love Ya Like A Sister', cursive;
@@ -84,7 +84,7 @@ a {
 }
 
 .fica{
-    color:rgba(255, 228, 196, 0.583);
+    color:rgba(255, 20, 145, 0.583);
     display: block;
     text-align: center;
     
@@ -101,16 +101,16 @@ a {
 #puto{
     font-size: 90px;
     font-family: damagrafik;
-    color:rgb(255, 228, 196);
+    color:rgb(227, 13, 13);
 }
 #puto1{
     font-size: 70px;
     font-family: 'Love Ya Like A Sister', cursive;
-    color:blue;
+    color:pink;
 }
 
 .fica2{
-    color:rgba(255, 228, 196, 0.583);
+    color:rgba(255, 20, 145, 0.583);
     display: block;
     text-align: center;
     
